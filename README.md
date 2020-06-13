@@ -46,7 +46,11 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+## Used command
 
+```bash
+$ nest new nestjs-tasj-management
+```
 ## Test
 
 ```bash
