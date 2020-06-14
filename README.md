@@ -58,6 +58,16 @@ $ nest g service tasks --no-spec
 #Node.JS
 $ npm install --save uuid
 ```
+
+## Install postgress docker
+
+```bash
+$ docker run --name postgress -e POSTGRES_PASSWORD=user -e POSTGRES_USER=user -e POSTGRES_DB=nestjs -d postgres
+$ docker run -p 80:80 \
+>     -e 'PGADMIN_DEFAULT_EMAIL=user@domain.com' \
+>     -e 'PGADMIN_DEFAULT_PASSWORD=SuperSecret' \
+>     -d dpage/pgadmin4
+```
 ## Test
 
 ```bash
