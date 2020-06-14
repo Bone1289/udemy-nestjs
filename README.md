@@ -49,7 +49,14 @@ $ npm run start:prod
 ## Used command
 
 ```bash
+#NestJS
 $ nest new nestjs-tasj-management
+$ nest g module tasks
+$ nest g controller tasks --no-spec
+$ nest g service tasks --no-spec
+
+#Node.JS
+$ npm install --save uuid
 ```
 ## Test
 
